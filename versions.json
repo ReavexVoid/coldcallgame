@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "app": {
+    "id": "coldcall",
+    "name": "ColdCall",
+    "platform": "windows",
+    "architecture": "x64",
+    "offline_allowed": false
+  },
+  "latest": "1.1.0",
+  "versions": {
+    "1.1.0": {
+      "release_date": "2026-10-25",
+      "mandatory": false,
+      "status": "active",
+      "changelog": [
+        "64 collectible customers, including 40 parody cameos and 16 new regular customers",
+        "Distinct cameo portraits and new customer greetings",
+        "Customer collection with saved discovery and encounter counts",
+        "Guided tutorial with no money, XP, or achievement rewards",
+        "Improved speech recognition, live transcription, and editable speech review",
+        "Discord Rich Presence for menus, lobbies, tutorials, and shifts",
+        "End-of-shift highlights for close finishes, comebacks, teamwork, and memorable calls",
+        "Fixed speech-model setup on Microsoft Store Python"
+      ],
+      "download": {
+        "url": "https://github.com/ReavexVoid/coldcallgame/releases/download/v1.1.0/Coldcall.zip",
+        "size": 137181395,
+        "sha256": "1dd5059bc3776d220092601d7c6021736096fa3654b992b029f3e6439426aa37",
+        "format": "zip"
+      }
+    },
+    "1.0.0": {
+      "release_date": "2026-10-24",
+      "mandatory": false,
+      "status": "active",
+      "changelog": [
+        "Initial release"
+      ],
+      "download": {
+        "url": "https://github.com/ReavexVoid/coldcallgame/releases/download/v1.0.0/Coldcall.zip",
+        "size": 134534305,
+        "sha256": "a2ccfa9eb03e63cb33de47410ec55c1e1cd9f725d18f708abf0e174084fcaaad",
+        "format": "zip"
+      }
+    }
+  },
+  "updater": {
+    "check_on_startup": true,
+    "verify_sha256": true,
+    "backup_previous_version": true,
+    "restart_after_update": true
+  },
+  "maintenance": {
+    "enabled": false,
+    "message": ""
+  }
+}
